@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
 
@@ -9,6 +9,7 @@
     @apply bg-black scrollbar-hide;
   }
 }
+/* scrollbar-hide */
 
 @layer components {
   .sidebarIcon {
@@ -20,7 +21,7 @@
   }
 
   .genre {
-    @apply bg-[#101010] text-[#CECECE] border border-[#484848] rounded-xl py-2.5 px-3.5 text-[11px] font-bold cursor-default;
+    @apply bg-[#101010] text-[#CECECE] border border-[#484848] rounded-xl py-2.5 px-3.5 text-[11px] font-bold cursor-pointer  hover:scale-105 transition ease-out;
   }
 
   .btn {
