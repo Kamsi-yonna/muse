@@ -3,7 +3,7 @@
     class="bg-black ml-24 py-4 space-y-8 md:max-w-6xl flex-grow md:mr-2.5"
   >
     <!-- SEARCH  -->
-    <searchbar />
+    <searchbar :search="search" :setSearch="setSearch" />
     <!-- SEARCHEND  -->
     <div
       class="grid overflow-y-scroll scrollbar-hide h-96 py-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-6-8 p-4"
@@ -44,6 +44,27 @@
   </section>
 </template>
 
-<script></script>
+<script>
+import { ref } from "vue";
+import searchbar from "./searchbar";
+
+export default {
+  setup() {
+    const search = ref("");
+
+    const setSearch = (value) => {
+      search.value = value;
+    };
+
+    return {
+      search,
+      setSearch,
+    };
+  },
+  components: {
+    searchbar,
+  },
+};
+</script>
 
 <style></style>

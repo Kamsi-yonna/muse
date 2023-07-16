@@ -14,10 +14,6 @@
   </main>
 </template>
 
-<script setup>
-// import { sidebar } from ".nuxt/components";
-// import { mainBody } from ".nuxt/components";
-// import { rightbar } from ".nuxt/components";
-</script>
+<script setup></script>
 
 <style scoped></style>

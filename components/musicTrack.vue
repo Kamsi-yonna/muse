@@ -22,7 +22,7 @@
     <div class="md:ml-auto flex items-center space-x-2.5">
       <div class="text-white flex space-x-1 text-sm font-semibold">
         <Icon name="oi:headphones" class="text-lg" />
-        <h4>TRACKeeeee POPULARITY</h4>
+        <h4>TRACK POPULARITY</h4>
       </div>
       <div
         class="flex items-center rounded-full border-2 border-[#262626] w-[85px] h-10 relative cursor-pointer group-hover:border-white/40"
