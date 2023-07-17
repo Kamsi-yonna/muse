@@ -12,10 +12,11 @@
         <h4 class="text-white text-sm font-semibold truncate w-[140px]">
           TRACK TITLE
         </h4>
-        <P
+        <p
           class="text-[rgb(1770,179,179)] text-[13px] font-semibold group-hover:text-white"
-          >TRACK ARTIST</P
         >
+          TRACK ARTIST
+        </p>
       </div>
     </div>
 
@@ -56,4 +57,4 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>
