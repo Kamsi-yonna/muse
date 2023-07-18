@@ -1,12 +1,12 @@
 <template>
   <section
-    class="bg-black ml-24 py-4 space-y-8 md:max-w-6xl flex-grow md:mr-2.5"
+    class="bg-black ml-24 py-4 space-y-8 md:max-w-5xl flex-grow md:mr-2.5"
   >
     <!-- SEARCH  -->
     <searchbar :search="search" :setSearch="setSearch" />
     <!-- SEARCHEND  -->
     <div
-      class="grid overflow-y-scroll scrollbar-hide h-96 py-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-6-8 p-4"
+      class="grid overflow-y-scroll scrollbar-hide h-96 py-4 grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-8 p-4"
     >
       <!-- POSTER  -->
       <musicPoster />

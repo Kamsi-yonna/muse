@@ -1,12 +1,12 @@
 <template>
-  <div
+  <Menu
     as="div"
     name="ic:round-keyboard-arrow-down"
-    class="w-24 h-12 relative flex items-center text-white"
+    class="w-24 h-12 relative flex items-center"
   >
     <div class="w-full absolute right-1 group">
-      <div
-        class="flex items-center w-full px-4 py3 text-sm font-medium text-white bg-[#1a1a1a] rounded-full hover:bg-[#3e3e3e]"
+      <MenuButton
+        class="flex items-center w-full px-4 py-3 text-sm font-medium text-white bg-[#1a1a1a] rounded-full hover:bg-[#3e3e3e] hover:text-l"
       >
         <icon
           name="ic:outline-keyboard-arrow-down"
@@ -16,39 +16,42 @@
         <img
           src="https://picsum.photos/id/34/200/300"
           alt=""
-          class="rounded-full w-11 absolute -right-1 object-cover"
+          class="rounded-full w-11 h-11 absolute -right-1 object-cover"
         />
-      </div>
+      </MenuButton>
     </div>
-    <Transition
+    <TransitionRoot
       enter="transition ease-out duration-100"
-      enterFrom="transform opacity-0 scale-95"
-      enterTo="transform opacity-100 scale-100"
+      enter-from="transform opacity-0 scale-95"
+      enter-to="transform opacity-100 scale-100"
       leave="transition ease-in duration-75"
-      leaveFrom="transition opacity-100 scale-100"
-      leaveTo="transform opacity-0 scale-95"
+      leave-from="transition opacity-100 scale-100"
+      leave-to="transform opacity-0 scale-95"
     >
-      <div
-        class="absolute right-0 w-56 mt-24 origin-top-right bg-[#1a1a1a] divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+      <MenuItems
+        class="absolute right-0 w-56 mt-10 origin-top-right bg-[#1a1a1a] divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
       >
         <div class="px-1 py-1">
-          <div>
-            <button
-              class="group flex rounded-md items-center w-full px-2 py-2 text-sm font-semibold tracking-wide text-white cursor-default"
+          <MenuItem v-slot="{ active }">
+            <Nuxt-link
+              to="/signIn"
+              class="group flex rounded-md items-center w-full px-2 py-2 text-sm font-semibold tracking-wide text-white cursor-pointer"
             >
               <Icon
                 name="ion:ios-log-out"
                 class="w-5 h-5 mr-2"
                 aria-hidden="true"
               />
-            </button>
-          </div>
+            </Nuxt-link>
+          </MenuItem>
         </div>
-      </div>
-    </Transition>
-  </div>
+      </MenuItems>
+    </TransitionRoot>
+  </Menu>
 </template>
 
-<script></script>
+<script setup>
+import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
+</script>
 
 <style lang="scss" scoped></style>

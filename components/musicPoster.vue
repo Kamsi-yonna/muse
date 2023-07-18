@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-[260px] h-[360px] rounded-[50px] overflow-hidden relative text-white/80 cursor-pointer hover:scale-105 hover:text-white/100 transition duration-200 ease-out group mx-auto"
+    class="w-[230px] h-[340px] rounded-[50px] overflow-hidden relative text-white/80 cursor-pointer hover:scale-105 hover:text-white/100 transition duration-200 ease-out group mx-auto"
   >
     <img
       src="https://picsum.photos/id/237/200/300"
@@ -9,17 +9,20 @@
     />
 
     <div
-      class="absolute hottom-10 inset-x-10 ml-4 flex items-center space-x-3.5"
+      className="absolute bottom-10 inset-x-0 ml-4 flex items-center space-x-3.5"
     >
       <div
-        class="h-10 w-10 bg-[#15883e] rounded-full flex items-center justify-center group-hover:bg[#1db654] flex-shrink-0"
+        className="h-10 w-10 bg-[#15883e] rounded-full flex items-center justify-center group-hover:bg-[#1db954] flex-shrink-0"
       >
-        TRACKPLAY
+        <Icon
+          name="material-symbols:play-arrow"
+          class="text-white text-xl ml-[1px]"
+        />
       </div>
 
-      <div class="text-[15px]">
-        <h4 class="font-extrabold truncate w-44">TRACK TITLE</h4>
-        <h6>Track artist</h6>
+      <div className="text-[15px]">
+        <h4 className="font-extrabold truncate w-44">Title</h4>
+        <h6>Artist</h6>
       </div>
     </div>
   </div>
