@@ -9,10 +9,10 @@
     />
 
     <div
-      className="absolute bottom-10 inset-x-0 ml-4 flex items-center space-x-3.5"
+      class="absolute bottom-10 inset-x-0 ml-4 flex items-center space-x-3.5"
     >
       <div
-        className="h-10 w-10 bg-[#15883e] rounded-full flex items-center justify-center group-hover:bg-[#1db954] flex-shrink-0"
+        class="h-10 w-10 bg-[#15883e] rounded-full flex items-center justify-center group-hover:bg-[#1db954] flex-shrink-0"
       >
         <Icon
           name="material-symbols:play-arrow"
@@ -20,8 +20,8 @@
         />
       </div>
 
-      <div className="text-[15px]">
-        <h4 className="font-extrabold truncate w-44">Title</h4>
+      <div class="text-[15px]">
+        <h4 class="font-extrabold truncate w-44">Title</h4>
         <h6>Artist</h6>
       </div>
     </div>

@@ -16,10 +16,10 @@
         class="sidebarIcon opacity-[0.85]"
       />
 
-      <Icon name="ph:compass-fill" class="sidebarIcon" />
-      <Icon name="ph:microphone-fill" class="sidebarIcon" />
+      <Icon name="heroicons:queue-list" class="sidebarIcon" />
+      <Icon name="ph:microphone-stage" class="sidebarIcon" />
+      <Icon name="cil:playlist-add" class="sidebarIcon" />
       <Icon name="material-symbols:bar-chart" class="sidebarIcon" />
-      <Icon name="ic:round-watch-later" class="sidebarIcon" />
       <Icon name="eos-icons:three-dots-loading" class="sidebarIcon" />
     </div>
   </section>

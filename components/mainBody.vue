@@ -10,10 +10,13 @@
     >
       <!-- POSTER  -->
       <musicPoster />
+      <musicPoster />
+      <musicPoster />
+      <musicPoster />
     </div>
     <!-- POSTER  END-->
 
-    <div class="flex gap-x-8 absolute min-w-full md:relative ml-6">
+    <div class="flex gap-x-8 absolute min-w-full md:relative">
       <div class="hidden xl:inline max-w-[720px]">
         <h2 class="text-white font-bold mb-3">Genres</h2>
         <div class="flex gap-x-2 gap-y-2.5 flex-wrap mb-3">
@@ -29,16 +32,24 @@
         </div>
         <button class="btn">All Genres</button>
       </div>
-    </div>
-
-    <div>
-      <h2 class="text-white font-bold mb-3">New Releases</h2>
-      <div
-        class="space-y-3 border-2 border-[#262626] rounded-2xl p-3 bg-[#0D0D0D] overflow-y-scroll scrollbar-hide h-[1000px] md:h-96 scrollbar-this scrollbar-thumb-gray-600 scrollbar-thumb-rounded hover:scrollbar-thumb-gray-500 w-[830px]"
-      >
-        <!-- TRACKS  -->
-        <musicTrack />
-        <!-- TRACKS END  -->
+      <div>
+        <h2 class="text-white font-bold mb-3">New Releases</h2>
+        <div
+          class="space-y-3 border-2 border-[#262626] rounded-2xl p-3 bg-[#0D0D0D] overflow-y-scroll scrollbar-hide h-[1000px] md:h-96 scrollbar-this scrollbar-thumb-gray-600 scrollbar-thumb-rounded hover:scrollbar-thumb-gray-500 w-[700px]"
+        >
+          <!-- TRACKS  -->
+          <musicTrack />
+          <musicTrack />
+          <musicTrack />
+          <musicTrack />
+          <musicTrack />
+          <musicTrack />
+          <musicTrack />
+          <musicTrack />
+          <musicTrack />
+          <musicTrack />
+          <!-- TRACKS END  -->
+        </div>
       </div>
     </div>
   </section>

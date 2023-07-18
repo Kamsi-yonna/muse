@@ -9,17 +9,17 @@
       type="text"
       :value="search"
       @input="updateSearch"
-      class="bg-[#1a1a1a] px-2 text-white border-none lg:w-full focus:ring-0 outline-none placeholder-[#fafafa] text-xs"
-      placeholder="Search..."
+      class="bg-[#1a1a1a] px-2 text-white border-none lg:w-full focus:ring-0 outline-none placeholder-[#b6b6b6] text-xs"
+      placeholder="What do you want to listen to?"
     />
 
     <div
       class="flex items-center divide-dotted divide-x-2 divide-[#333] ml-auto"
     >
       <div class="flex space-x-2 pr-5">
-        <button class="tag">Minimal</button>
-        <button class="tag">House</button>
-        <button class="tag">Minimal</button>
+        <button class="tag">Pop</button>
+        <button class="tag">Afro</button>
+        <button class="tag">Rock</button>
       </div>
     </div>
 
