@@ -1,0 +1,318 @@
+[
+  {
+    "id": 1,
+    "albumName": "Mylo Xyloto",
+    "albumArtist": "Coldplay",
+    "albumCover": "/images/albumCovers/Coldplay.jpg",
+    "releaseYear": "2011",
+    "tracks": [
+      {
+        "id": 1,
+        "name": "Mylo Xyloto",
+        "path": "/songs/Mylo Xyloto.mp3"
+      },
+      {
+        "id": 2,
+        "name": "Hurts Like Heaven",
+        "path": "/songs/Hurts Like Heaven.mp3"
+      },
+      {
+        "id": 3,
+        "name": "Paradise",
+        "path": "/songs/Paradise.mp3"
+      },
+      {
+        "id": 4,
+        "name": "Charlie Brown",
+        "path": "/songs/Charlie Brown.mp3"
+      },
+      {
+        "id": 5,
+        "name": "Us Against the World",
+        "path": "/songs/Us Against the World.mp3"
+      },
+      {
+        "id": 6,
+        "name": "M.M.I.X",
+        "path": "/songs/M.M.I.X..mp3"
+      },
+      {
+        "id": 7,
+        "name": "Every Teardrop Is a Waterfall",
+        "path": "/songs/Every Teardrop Is a Waterfall.mp3"
+      },
+      {
+        "id": 8,
+        "name": "Major Minus",
+        "path": "/songs/Major Minus.mp3"
+      },
+      {
+        "id": 9,
+        "name": "U.F.O.",
+        "path": "/songs/U.F.O..mp3"
+      },
+      {
+        "id": 10,
+        "name": "Princess of China",
+        "path": "/songs/Princess of China.mp3"
+      },
+      {
+        "id": 11,
+        "name": "Up in Flames",
+        "path": "/songs/Up in Flames.mp3"
+      },
+      {
+        "id": 12,
+        "name": "Brother",
+        "path": "/songs/A Hopeful Transmission.mp3"
+      },
+      {
+        "id": 13,
+        "name": "Don't Let It Break Your Heart",
+        "path": "/songs/Don't Let It Break Your Heart.mp3"
+      },
+      {
+        "id": 14,
+        "name": "Up with the Birds",
+        "path": "/songs/Up with the Birds.mp3"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "albumName": "Blonde",
+    "albumArtist": "Frank Ocean",
+    "albumCover": "/images/albumCovers/Blonde.jpg",
+    "releaseYear": "2015",
+    "tracks": [
+      {
+        "id": 1,
+        "name": "Mylo Xyloto",
+        "path": "/songs/Mylo Xyloto.mp3"
+      },
+      {
+        "id": 2,
+        "name": "Hurts Like Heaven",
+        "path": "/songs/Hurts Like Heaven.mp3"
+      },
+      {
+        "id": 3,
+        "name": "Paradise",
+        "path": "/songs/Paradise.mp3"
+      },
+      {
+        "id": 4,
+        "name": "Charlie Brown",
+        "path": "/songs/Charlie Brown.mp3"
+      },
+      {
+        "id": 5,
+        "name": "Us Against the World",
+        "path": "/songs/Us Against the World.mp3"
+      },
+      {
+        "id": 6,
+        "name": "M.M.I.X",
+        "path": "/songs/M.M.I.X..mp3"
+      },
+      {
+        "id": 7,
+        "name": "Every Teardrop Is a Waterfall",
+        "path": "/songs/Every Teardrop Is a Waterfall.mp3"
+      },
+      {
+        "id": 8,
+        "name": "Major Minus",
+        "path": "/songs/Major Minus.mp3"
+      },
+      {
+        "id": 9,
+        "name": "U.F.O.",
+        "path": "/songs/U.F.O..mp3"
+      },
+      {
+        "id": 10,
+        "name": "Princess of China",
+        "path": "/songs/Princess of China.mp3"
+      },
+      {
+        "id": 11,
+        "name": "Up in Flames",
+        "path": "/songs/Up in Flames.mp3"
+      },
+      {
+        "id": 12,
+        "name": "Brother",
+        "path": "/songs/A Hopeful Transmission.mp3"
+      },
+      {
+        "id": 13,
+        "name": "Don't Let It Break Your Heart",
+        "path": "/songs/Don't Let It Break Your Heart.mp3"
+      },
+      {
+        "id": 14,
+        "name": "Up with the Birds",
+        "path": "/songs/Up with the Birds.mp3"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "albumName": "Deep Prophetic Worship",
+    "albumArtist": "Fiyin",
+    "albumCover": "/images/albumCovers/Fiyin.jpg",
+    "releaseYear": "2020",
+    "tracks": [
+      {
+        "id": 1,
+        "name": "Mylo Xyloto",
+        "path": "/songs/Mylo Xyloto.mp3"
+      },
+      {
+        "id": 2,
+        "name": "Hurts Like Heaven",
+        "path": "/songs/Hurts Like Heaven.mp3"
+      },
+      {
+        "id": 3,
+        "name": "Paradise",
+        "path": "/songs/Paradise.mp3"
+      },
+      {
+        "id": 4,
+        "name": "Charlie Brown",
+        "path": "/songs/Charlie Brown.mp3"
+      },
+      {
+        "id": 5,
+        "name": "Us Against the World",
+        "path": "/songs/Us Against the World.mp3"
+      },
+      {
+        "id": 6,
+        "name": "M.M.I.X",
+        "path": "/songs/M.M.I.X..mp3"
+      },
+      {
+        "id": 7,
+        "name": "Every Teardrop Is a Waterfall",
+        "path": "/songs/Every Teardrop Is a Waterfall.mp3"
+      },
+      {
+        "id": 8,
+        "name": "Major Minus",
+        "path": "/songs/Major Minus.mp3"
+      },
+      {
+        "id": 9,
+        "name": "U.F.O.",
+        "path": "/songs/U.F.O..mp3"
+      },
+      {
+        "id": 10,
+        "name": "Princess of China",
+        "path": "/songs/Princess of China.mp3"
+      },
+      {
+        "id": 11,
+        "name": "Up in Flames",
+        "path": "/songs/Up in Flames.mp3"
+      },
+      {
+        "id": 12,
+        "name": "Brother",
+        "path": "/songs/A Hopeful Transmission.mp3"
+      },
+      {
+        "id": 13,
+        "name": "Don't Let It Break Your Heart",
+        "path": "/songs/Don't Let It Break Your Heart.mp3"
+      },
+      {
+        "id": 14,
+        "name": "Up with the Birds",
+        "path": "/songs/Up with the Birds.mp3"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "albumName": "Outside",
+    "albumArtist": "Burna Boy",
+    "albumCover": "/images/albumCovers/Outside.jpg",
+    "releaseYear": "2018",
+    "tracks": [
+      {
+        "id": 1,
+        "name": "Mylo Xyloto",
+        "path": "/songs/Mylo Xyloto.mp3"
+      },
+      {
+        "id": 2,
+        "name": "Hurts Like Heaven",
+        "path": "/songs/Hurts Like Heaven.mp3"
+      },
+      {
+        "id": 3,
+        "name": "Paradise",
+        "path": "/songs/Paradise.mp3"
+      },
+      {
+        "id": 4,
+        "name": "Charlie Brown",
+        "path": "/songs/Charlie Brown.mp3"
+      },
+      {
+        "id": 5,
+        "name": "Us Against the World",
+        "path": "/songs/Us Against the World.mp3"
+      },
+      {
+        "id": 6,
+        "name": "M.M.I.X",
+        "path": "/songs/M.M.I.X..mp3"
+      },
+      {
+        "id": 7,
+        "name": "Every Teardrop Is a Waterfall",
+        "path": "/songs/Every Teardrop Is a Waterfall.mp3"
+      },
+      {
+        "id": 8,
+        "name": "Major Minus",
+        "path": "/songs/Major Minus.mp3"
+      },
+      {
+        "id": 9,
+        "name": "U.F.O.",
+        "path": "/songs/U.F.O..mp3"
+      },
+      {
+        "id": 10,
+        "name": "Princess of China",
+        "path": "/songs/Princess of China.mp3"
+      },
+      {
+        "id": 11,
+        "name": "Up in Flames",
+        "path": "/songs/Up in Flames.mp3"
+      },
+      {
+        "id": 12,
+        "name": "Brother",
+        "path": "/songs/A Hopeful Transmission.mp3"
+      },
+      {
+        "id": 13,
+        "name": "Don't Let It Break Your Heart",
+        "path": "/songs/Don't Let It Break Your Heart.mp3"
+      },
+      {
+        "id": 14,
+        "name": "Up with the Birds",
+        "path": "/songs/Up with the Birds.mp3"
+      }
+    ]
+  }
+]

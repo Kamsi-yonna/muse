@@ -9,7 +9,7 @@
         class="rounded-xl h-12 w-12 object-cover mr-3"
       />
       <div>
-        <h4 class="text-white text-sm font-semibold truncate w-[140px]">
+        <h4 class="text-white text-sm font-semibold truncate w-[450px]">
           TRACK TITLE
         </h4>
         <p

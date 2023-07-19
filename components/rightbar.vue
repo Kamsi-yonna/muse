@@ -39,7 +39,6 @@
         <recentlyPlayed />
         <recentlyPlayed />
         <recentlyPlayed />
-        <recentlyPlayed />
         <!-- RECENTLY PLAYED END -->
       </div>
       <button class="btn">View All</button>

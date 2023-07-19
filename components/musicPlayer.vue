@@ -22,8 +22,8 @@
       </div>
       <div class="flex items-center ml-8 cursor-pointer">
         <Icon
-          name="material-symbols:favorite"
-          class="text-2xl ml-3 text-[#868686]"
+          name="material-symbols:favorite-outline"
+          class="text-xl ml-3 text-[#868686]"
         />
       </div>
     </div>
@@ -34,29 +34,26 @@
           <button class="mx-2">
             <Icon
               name="iconamoon:playlist-shuffle-light"
-              fillColor="#FFFFFF"
-              :size="23"
+              class="text-white text-xl"
             />
           </button>
           <button class="mx-2">
-            <Icon name="ion:ios-skipbackward" fillColor="#FFFFFF" :size="25" />
+            <Icon name="ion:ios-skipbackward" class="text-white text-xl" />
           </button>
 
           <button class="p-1 rounded-full mx-3 bg-white">
             <Icon
               name="material-symbols:play-arrow"
-              class="text-black"
-              :size="30"
+              class="text-black items-center text-3xl"
             />
           </button>
           <button class="mx-2">
-            <Icon name="ion:ios-skipforward" fillColor="#FFFFFF" :size="25" />
+            <Icon name="ion:ios-skipforward" class="text-white text-xl" />
           </button>
           <button class="mx-2">
             <Icon
               name="iconamoon:playlist-repeat-list-light"
-              fillColor="#FFFFFF"
-              :size="23"
+              class="text-white text-xl"
             />
           </button>
         </div>
