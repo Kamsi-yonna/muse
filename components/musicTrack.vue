@@ -4,18 +4,18 @@
   >
     <div class="flex items-center">
       <img
-        src="https://picsum.photos/id/237/200/300"
+        :src="album.albumCover"
         alt=""
         class="rounded-xl h-12 w-12 object-cover mr-3"
       />
       <div>
         <h4 class="text-white text-sm font-semibold truncate w-[450px]">
-          TRACK TITLE
+          {{ album.tracks[0].name }}
         </h4>
         <p
           class="text-[rgb(1770,179,179)] text-[13px] font-semibold group-hover:text-white"
         >
-          TRACK ARTIST
+          {{ album.albumArtist }}
         </p>
       </div>
     </div>
@@ -55,6 +55,9 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { defineProps } from "vue";
+const props = defineProps(["album"]);
+</script>
 
 <style scoped></style>

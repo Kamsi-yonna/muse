@@ -1,16 +1,15 @@
 <template>
   <div
-    class="w-[230px] h-[340px] rounded-[50px] overflow-hidden relative text-white/80 cursor-pointer hover:scale-105 hover:text-white/100 transition duration-200 ease-out group mx-auto"
+    class="w-[230px] h-[340px] rounded-[50px] overflow-hidden relative text-white/80 cursor-pointer hover:scale-105 hover:text-white/100 transition duration-200 ease-out group mx-auto bg-[#3a3a3a4c] hover:bg-[#3c3c3c]"
+    @click="handleClick"
   >
     <img
-      :src="currentAlbum.albumCover"
+      :src="album.albumCover"
       alt=""
-      class="h-full w-full absolute inset-0 object-cover rounded-[50px] opacity-80 group-hover:opacity-100"
+      class="p-2 h-185 w-full absolute inset-0 object-cover rounded-[50px] opacity-80 group-hover:opacity-100"
     />
 
-    <div
-      class="absolute bottom-10 inset-x-0 ml-4 flex items-center space-x-3.5"
-    >
+    <div class="absolute bottom-5 inset-x-0 ml-4 flex items-center space-x-3.5">
       <div
         class="h-10 w-10 bg-[#15883e] rounded-full flex items-center justify-center group-hover:bg-[#1db954] flex-shrink-0"
       >
@@ -21,24 +20,21 @@
       </div>
 
       <div class="text-[15px]">
-        <h4 class="font-extrabold truncate w-44">
-          {{ currentAlbum.albumName }}
+        <h4 class="font-extrabold w-44">
+          {{ album.albumName }}
         </h4>
-        <h6>{{ currentAlbum.albumArtist }}</h6>
+        <h6>{{ album.albumArtist }}</h6>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import artist from "../artist.json";
-// console.log(artist);
+import { defineProps } from "vue";
+const props = defineProps(["album"]);
 
-let currentIndex = 1;
-const currentAlbum = computed(() => artist[currentIndex]); //to get the album data for the current index
-
-function changeAlbumIndex(newIndex) {
-  currentIndex = newIndex;
+function handleClick() {
+  console.log("Poster index:", props.album.tracks);
 }
 </script>
 
