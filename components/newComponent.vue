@@ -10,7 +10,7 @@
       />
       <div>
         <h4 class="text-white text-sm font-semibold truncate w-[450px]">
-          {{ album.tracks }}
+          {{ album.tracks[1].name }}
         </h4>
         <p
           class="text-[rgb(1770,179,179)] text-[13px] font-semibold group-hover:text-white"
@@ -40,16 +40,6 @@
             class="text-white text-xl ml-[1px]"
           />
         </div>
-        <!-- PAUSE/PLAY FUNCTION -->
-        <!-- <div
-                      class="h-10 w-10 rounded-full border border-white/60 flex items-center justify-center absolute -right-0.5 hover:bg-[#15883e] hover:border-[#15883e] icon hover:scale-110"
-                    >
-                      <Icon
-                        name="material-symbols:pause"
-                        class="text-white text-xl ml-[1px]"
-                      />
-                    </div> -->
-        <!-- PAUSE/PLAY FUNCTION END-->
       </div>
     </div>
   </div>

@@ -14,7 +14,7 @@
       <musicPoster :album="artist[2]" @fetchAlbumData="handleFetchAlbumData" />
       <musicPoster :album="artist[3]" @fetchAlbumData="handleFetchAlbumData" />
     </div>
-    <!-- POSTER  END-->c
+    <!-- POSTER  END-->
 
     <div class="flex gap-x-4 absolute min-w-full md:relative">
       <!-- new release  -->
@@ -40,9 +40,18 @@
         <div
           class="space-y-3 border-2 border-[#262626] rounded-2xl p-3 bg-[#0D0D0D] overflow-y-scroll scrollbar-hide h-[800px] md:h-96 scrollbar-this scrollbar-thumb-gray-600 scrollbar-thumb-rounded hover:scrollbar-thumb-gray-500 w-[700px]"
         >
-          <!-- TRACKS  -->
-          <musicTrack :album="artist[0]" />
-          <!-- TRACKS END  -->
+          <ul
+            class="w-full text-white"
+            v-for="(track, index) in artist.tracks"
+            :key="track"
+          >
+            <SongRow :artist="artist" :track="track" :index="++index" />
+          </ul>
+          <MusicTrackList :album="artist[2]" />
+          <!-- <newComponent
+            :album="artist[0]"
+            @fetchAlbumData="handleFetchAlbumData"
+          /> -->
         </div>
       </div>
     </div>
@@ -52,31 +61,31 @@
 <script>
 import { ref } from "vue";
 import searchbar from "./searchbar";
+import trackLength from "./MusicPoster";
+import MusicTrack from "./MusicTrack";
 import artist from "../artist.json";
-
+import SongRow from "./SongRow";
 export default {
   setup() {
     const search = ref("");
+    const selectedAlbumIndex = ref(0);
+    const trackLengths = trackLength.value;
 
     const setSearch = (value) => {
       search.value = value;
     };
 
-    function handleFetchAlbumData(index) {
-      const albumData = artist.find((album) => album.id === index);
-      console.log(`Album Name: ${albumData.albumName}`);
-      console.log(`Number of Tracks: ${albumData.tracks.length}`);
-    }
-
     return {
       search,
       setSearch,
       artist,
-      handleFetchAlbumData,
+      selectedAlbumIndex,
+      trackLengths,
     };
   },
   components: {
     searchbar,
+    MusicTrack,
   },
 };
 </script>

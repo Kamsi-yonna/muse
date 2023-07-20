@@ -30,12 +30,15 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
+import { defineProps, ref } from "vue";
 const props = defineProps(["album"]);
 
+const trackLength = ref(0);
+
 function handleClick() {
-  console.log("Poster index:", props.album.tracks);
+  trackLength.value = props.album.tracks.length;
+  // console.log("Poster index:", trackLength.value);
+  console.log(trackLength.value);
 }
 </script>
-
 <style lang="scss" scoped></style>
