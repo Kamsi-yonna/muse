@@ -53,6 +53,7 @@ import { ref } from "vue";
 
 import searchbar from "./searchbar";
 import trackLength from "./MusicPoster";
+import MusicPoster from "./MusicPoster";
 import MusicTrack from "./MusicTrack";
 import artist from "../artist.json";
 import CreatePlaylistModal from "./CreatePlaylistModal";
@@ -92,6 +93,7 @@ export default {
     searchbar,
     MusicTrack,
     CreatePlaylistModal,
+    MusicPoster,
   },
 };
 </script>
