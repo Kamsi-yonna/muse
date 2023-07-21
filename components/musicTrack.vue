@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center justify-between space-x-20 cursor-default hover:bg-white/10 py-2 px-4 rounded-lg group transition ease-out"
+    class="flex items-center justify-between space-x-18 cursor-default hover:bg-white/10 py-2 px-4 rounded-lg group transition ease-out"
   >
     <div class="flex items-center">
       <img
@@ -10,7 +10,7 @@
       />
       <div>
         <h4 class="text-white text-sm font-semibold truncate w-[450px]">
-          {{ album.tracks }}
+          {{ track.name }}
         </h4>
         <p
           class="text-[rgb(1770,179,179)] text-[13px] font-semibold group-hover:text-white"
@@ -21,9 +21,11 @@
     </div>
 
     <div class="md:ml-auto flex items-center space-x-2.5">
-      <div class="text-white flex space-x-1 text-sm font-semibold">
-        <!-- <Icon name="oi:headphones" class="text-lg" /> -->
-        <!-- <h4></h4> -->
+      <div
+        v-if="isTrackTime"
+        class="text-white flex space-x-1 text-sm font-semibold"
+      >
+        <!-- {{ isTrackTime }} -->
       </div>
       <div
         class="flex items-center rounded-full border-2 border-[#262626] w-[85px] h-10 relative cursor-pointer group-hover:border-white/40"
@@ -40,24 +42,25 @@
             class="text-white text-xl ml-[1px]"
           />
         </div>
-        <!-- PAUSE/PLAY FUNCTION -->
-        <!-- <div
-                      class="h-10 w-10 rounded-full border border-white/60 flex items-center justify-center absolute -right-0.5 hover:bg-[#15883e] hover:border-[#15883e] icon hover:scale-110"
-                    >
-                      <Icon
-                        name="material-symbols:pause"
-                        class="text-white text-xl ml-[1px]"
-                      />
-                    </div> -->
-        <!-- PAUSE/PLAY FUNCTION END-->
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { defineProps } from "vue";
-const props = defineProps(["album"]);
+import { defineProps, onMounted, ref } from "vue";
+const { track, album } = defineProps(["track", "album"]);
+const isTrackTime = ref(null);
+
+onMounted(() => {
+  const audio = new Audio(album.value.tracks[3].path);
+  audio.addEventListener("loadedmetadata", function () {
+    const duration = audio.duration;
+    const minutes = Math.floor(duration / 60);
+    const seconds = Math.floor(duration % 60);
+    isTrackTime.value = minutes + ":" + seconds.toString().padStart(2, "0");
+  });
+});
 </script>
 
 <style scoped></style>

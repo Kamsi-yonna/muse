@@ -1,8 +1,10 @@
 <template>
   <div>
-    <newComponent
-      v-for="track in album.tracks"
-      :key="track.id"
+    <musicTrack
+      class="cursor"
+      v-for="(track, index) in album.tracks"
+      :key="index"
+      :track="track"
       :album="album"
       @fetchAlbumData="handleFetchAlbumData"
     />
@@ -11,7 +13,7 @@
 
 <script setup>
 import { defineProps } from "vue";
-import newComponent from "./NewComponent";
+import musicTrack from "./musicTrack";
 
 const { album } = defineProps(["album"]);
 </script>

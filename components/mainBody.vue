@@ -40,13 +40,6 @@
         <div
           class="space-y-3 border-2 border-[#262626] rounded-2xl p-3 bg-[#0D0D0D] overflow-y-scroll scrollbar-hide h-[800px] md:h-96 scrollbar-this scrollbar-thumb-gray-600 scrollbar-thumb-rounded hover:scrollbar-thumb-gray-500 w-[700px]"
         >
-          <ul
-            class="w-full text-white"
-            v-for="(track, index) in artist.tracks"
-            :key="track"
-          >
-            <SongRow :artist="artist" :track="track" :index="++index" />
-          </ul>
           <MusicTrackList :album="artist[2]" />
           <!-- <newComponent
             :album="artist[0]"
@@ -64,7 +57,6 @@ import searchbar from "./searchbar";
 import trackLength from "./MusicPoster";
 import MusicTrack from "./MusicTrack";
 import artist from "../artist.json";
-import SongRow from "./SongRow";
 export default {
   setup() {
     const search = ref("");
