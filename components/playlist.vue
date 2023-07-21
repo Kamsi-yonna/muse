@@ -14,10 +14,11 @@
       <p
         class="text-xs text-[#686868] font-semibold cursor-pointer hover:underline"
       >
-        Playlist &#x2022; Author
+        Playlist Name &#x2022; Author
       </p>
     </div>
   </div>
+  <!-- <button class="btn mt-4">Create New Playlist</button> -->
 </template>
 
 <script setup></script>

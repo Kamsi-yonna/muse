@@ -87,58 +87,88 @@
     "tracks": [
       {
         "id": 1,
-        "name": "Mylo Xyloto",
-        "path": "/songs/Mylo Xyloto.mp3"
+        "name": "Be Yourself",
+        "path": "/Blonde/Be Yourself.mp3"
       },
       {
         "id": 2,
-        "name": "Hurts Like Heaven",
-        "path": "/songs/Hurts Like Heaven.mp3"
+        "name": "Close to You",
+        "path": "/Blonde/Close to You.mp3"
       },
       {
         "id": 3,
-        "name": "Paradise",
-        "path": "/songs/Paradise.mp3"
+        "name": "Facebook Story",
+        "path": "/Blonde/Facebook Story.mp3"
       },
       {
         "id": 4,
-        "name": "Charlie Brown",
-        "path": "/songs/Charlie Brown.mp3"
+        "name": "Futura Free",
+        "path": "/Blonde/Futura Free.mp3"
       },
       {
         "id": 5,
-        "name": "Us Against the World",
-        "path": "/songs/Us Against the World.mp3"
+        "name": "Godspeed",
+        "path": "/Blonde/Godspeed.mp3"
       },
       {
         "id": 6,
-        "name": "M.M.I.X",
-        "path": "/songs/M.M.I.X..mp3"
+        "name": "Good Guy",
+        "path": "/Blonde/Good Guy..mp3"
       },
       {
         "id": 7,
-        "name": "Every Teardrop Is a Waterfall",
-        "path": "/songs/Every Teardrop Is a Waterfall.mp3"
+        "name": "Ivy",
+        "path": "/Blonde/Ivy.mp3"
       },
       {
         "id": 8,
-        "name": "Major Minus",
-        "path": "/songs/Major Minus.mp3"
+        "name": "Nights",
+        "path": "/Blonde/Nights.mp3"
       },
       {
         "id": 9,
-        "name": "U.F.O.",
-        "path": "/songs/U.F.O..mp3"
+        "name": "Nikes",
+        "path": "/Blonde/Nikes.mp3"
       },
       {
         "id": 10,
-        "name": "Princess of China",
-        "path": "/songs/Princess of China.mp3"
+        "name": "Pink + White",
+        "path": "/Blonde/Pink + White.mp3"
       },
       {
         "id": 11,
-        "name": "Up in Flames",
-        "path": "/songs/Up in Flames.mp3"
+        "name": "Pretty Sweet",
+        "path": "/Blonde/Pretty Sweet.mp3"
+      },
+      {
+        "id": 12,
+        "name": "Seigfried",
+        "path": "/Blonde/Seigfried.mp3"
+      },
+      {
+        "id": 13,
+        "name": "Self Control",
+        "path": "/Blonde/Self Control.mp3"
+      },
+      {
+        "id": 14,
+        "name": "Skyline To",
+        "path": "/Blonde/Skyline To.mp3"
+      },
+      {
+        "id": 15,
+        "name": "Solo (Reprise)",
+        "path": "/Blonde/Solo (Reprise).mp3"
+      },
+      {
+        "id": 16,
+        "name": "Solo",
+        "path": "/Blonde/Solo.mp3"
+      },
+      {
+        "id": 17,
+        "name": "White Ferrari",
+        "path": "/Blonde/White Ferrari.mp3"
       }
     ]
   },
@@ -151,23 +181,18 @@
     "tracks": [
       {
         "id": 1,
-        "name": "Mylo Xyloto",
-        "path": "/songs/Mylo Xyloto.mp3"
+        "name": "Thou Art A Shield Cover",
+        "path": "/Fiyin/Thou Art A Shield Cover.mp3"
       },
       {
         "id": 2,
-        "name": "Hurts Like Heaven",
-        "path": "/songs/Hurts Like Heaven.mp3"
+        "name": "Halleluyah you are good",
+        "path": "/Fiyin/Halleluyah you are good.mp3"
       },
       {
         "id": 3,
-        "name": "Paradise",
-        "path": "/songs/Paradise.mp3"
-      },
-      {
-        "id": 4,
-        "name": "Charlie Brown",
-        "path": "/songs/Charlie Brown.mp3"
+        "name": "Stirring Worship with Ademola Makinde",
+        "path": "/songs/Stirring Worship with Ademola Makinde.mp3"
       }
     ]
   },
@@ -180,43 +205,63 @@
     "tracks": [
       {
         "id": 1,
-        "name": "Mylo Xyloto",
-        "path": "/songs/Mylo Xyloto.mp3"
+        "name": "More Life",
+        "path": "/Outside/More Life.mp3"
       },
       {
         "id": 2,
-        "name": "Hurts Like Heaven",
-        "path": "/songs/Hurts Like Heaven.mp3"
+        "name": "Ph City Vibration",
+        "path": "/Outside/Ph City Vibration.mp3"
       },
       {
         "id": 3,
-        "name": "Paradise",
-        "path": "/songs/Paradise.mp3"
+        "name": "Koni Baje",
+        "path": "/Outside/Koni Baje.mp3"
       },
       {
         "id": 4,
-        "name": "Charlie Brown",
-        "path": "/songs/Charlie Brown.mp3"
+        "name": "Sekkle Down (feat. J Hus)",
+        "path": "/Outside/Sekkle Down (feat. J Hus).mp3"
       },
       {
         "id": 5,
-        "name": "Us Against the World",
-        "path": "/songs/Us Against the World.mp3"
+        "name": "Heaven's Gate (feat. Lily Allen)",
+        "path": "/Outside/Heaven's Gate (feat. Lily Allen).mp3"
       },
       {
         "id": 6,
-        "name": "M.M.I.X",
-        "path": "/songs/M.M.I.X..mp3"
+        "name": "Ye",
+        "path": "/Outside/Ye.mp3"
       },
       {
         "id": 7,
-        "name": "Every Teardrop Is a Waterfall",
-        "path": "/songs/Every Teardrop Is a Waterfall.mp3"
+        "name": "Giddem",
+        "path": "/Outside/Giddem.mp3"
       },
       {
         "id": 8,
-        "name": "Major Minus",
-        "path": "/songs/Major Minus.mp3"
+        "name": "Streets of Africa",
+        "path": "/Outside/Streets of Africa.mp3"
+      },
+      {
+        "id": 9,
+        "name": "Rock Your Body",
+        "path": "/Outside/Rock Your Body.mp3"
+      },
+      {
+        "id": 10,
+        "name": "Devil In California",
+        "path": "/Outside/Devil In California.mp3"
+      },
+      {
+        "id": 11,
+        "name": "Calm Down",
+        "path": "/Outside/Calm Down.mp3"
+      },
+      {
+        "id": 12,
+        "name": "Outside",
+        "path": "/Outside/Outside.mp3"
       }
     ]
   }

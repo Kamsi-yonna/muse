@@ -12,9 +12,7 @@
         <h4 class="text-white text-sm font-semibold truncate w-[450px]">
           {{ track.name }}
         </h4>
-        <p
-          class="text-[rgb(1770,179,179)] text-[13px] font-semibold group-hover:text-white"
-        >
+        <p class="text-white text-[13px] font-semibold">
           {{ album.albumArtist }}
         </p>
       </div>

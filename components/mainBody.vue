@@ -28,9 +28,9 @@
             class="overflow-y-scroll scrollbar-hide h-[800px] md:h-96 scrollbar-this overflow-x-hidden scrollbar-thumb-rounded hover:scrollbar-thumb-gray-500"
           >
             <playlist />
-            <playlist />
-            <playlist />
-            <button class="btn mt-4">Create New Playlist</button>
+            <button @click="openModal" class="btn mt-4">
+              Create New Playlist
+            </button>
           </div>
           <!-- TRACKS END  -->
         </div>
@@ -40,23 +40,33 @@
         <div
           class="space-y-3 border-2 border-[#262626] rounded-2xl p-3 bg-[#0D0D0D] overflow-y-scroll scrollbar-hide h-[800px] md:h-96 scrollbar-this scrollbar-thumb-gray-600 scrollbar-thumb-rounded hover:scrollbar-thumb-gray-500 w-[700px]"
         >
-          <MusicTrackList :album="artist[2]" />
-          <!-- <newComponent
-            :album="artist[0]"
-            @fetchAlbumData="handleFetchAlbumData"
-          /> -->
+          <MusicTrackList :album="artist[1]" />
         </div>
       </div>
     </div>
+    <CreatePlaylistModal v-if="isModalOpen" @closeModal="closeModal" />
   </section>
 </template>
 
 <script>
 import { ref } from "vue";
+
 import searchbar from "./searchbar";
 import trackLength from "./MusicPoster";
 import MusicTrack from "./MusicTrack";
 import artist from "../artist.json";
+import CreatePlaylistModal from "./CreatePlaylistModal";
+
+const isModalOpen = ref(false);
+
+function openModal() {
+  console.log("open");
+  isModalOpen.value = true;
+}
+function closeModal() {
+  isModalOpen.value = false;
+}
+
 export default {
   setup() {
     const search = ref("");
@@ -73,11 +83,15 @@ export default {
       artist,
       selectedAlbumIndex,
       trackLengths,
+      isModalOpen,
+      openModal,
+      closeModal,
     };
   },
   components: {
     searchbar,
     MusicTrack,
+    CreatePlaylistModal,
   },
 };
 </script>
