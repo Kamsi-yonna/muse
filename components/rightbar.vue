@@ -34,11 +34,9 @@
         <recentlyPlayed />
         <recentlyPlayed />
         <recentlyPlayed />
-        <recentlyPlayed />
-        <recentlyPlayed />
-        <recentlyPlayed />
-        <recentlyPlayed />
-        <recentlyPlayed />
+        <!-- <MusicTrack /> -->
+        <!-- <recentlyPlayed /> -->
+
         <!-- RECENTLY PLAYED END -->
       </div>
       <button class="btn">View All</button>

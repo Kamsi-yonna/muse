@@ -19,10 +19,7 @@
     </div>
 
     <div class="md:ml-auto flex items-center space-x-2.5">
-      <div
-        v-if="isTrackTime"
-        class="text-white flex space-x-1 text-sm font-semibold"
-      >
+      <div class="text-white flex space-x-1 text-sm font-semibold">
         <!-- {{ isTrackTime }} -->
       </div>
       <div
@@ -48,17 +45,6 @@
 <script setup>
 import { defineProps, onMounted, ref } from "vue";
 const { track, album } = defineProps(["track", "album"]);
-const isTrackTime = ref(null);
-
-onMounted(() => {
-  const audio = new Audio(album.value.tracks[3].path);
-  audio.addEventListener("loadedmetadata", function () {
-    const duration = audio.duration;
-    const minutes = Math.floor(duration / 60);
-    const seconds = Math.floor(duration % 60);
-    isTrackTime.value = minutes + ":" + seconds.toString().padStart(2, "0");
-  });
-});
 </script>
 
 <style scoped></style>
