@@ -56,7 +56,7 @@ import trackLength from "./MusicPoster";
 import MusicPoster from "./MusicPoster";
 import MusicTrack from "./MusicTrack";
 import artist from "../artist.json";
-import CreatePlaylistModal from "./CreatePlaylistModal";
+import CreatePlaylistModal from "./CreatePlaylistModgit al";
 
 const isModalOpen = ref(false);
 

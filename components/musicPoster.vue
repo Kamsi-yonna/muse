@@ -37,7 +37,6 @@ const trackLength = ref(0);
 
 function handleClick() {
   trackLength.value = props.album.tracks.length;
-  // console.log("Poster index:", trackLength.value);
   console.log(trackLength.value);
 }
 </script>
