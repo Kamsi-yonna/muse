@@ -9,12 +9,12 @@
       <h4
         class="text-white text-[13px] mb-0.5 font-semibold hover:underline cursor-pointer truncate max-w-[150px]"
       >
-        Title
+        AfroBeats
       </h4>
       <p
         class="text-xs text-[#686868] font-semibold cursor-pointer hover:underline"
       >
-        Playlist Name &#x2022; Author
+        Playlist &#x2022; Yonna
       </p>
     </div>
   </div>

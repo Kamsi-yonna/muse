@@ -12,12 +12,12 @@
         <h4
           class="text-white text-[13px] mb-0.5 font-semibold hover:underline cursor-pointer truncate max-w-[150px]"
         >
-          Title
+          Futura Free
         </h4>
         <p
           class="text-xs text-[#686868] font-semibold cursor-pointer hover:underline"
         >
-          Artist
+          Frank Ocean
         </p>
       </div>
       <div class="flex items-center ml-8 cursor-pointer">

@@ -40,7 +40,7 @@
         <div
           class="space-y-3 border-2 border-[#262626] rounded-2xl p-3 bg-[#0D0D0D] overflow-y-scroll scrollbar-hide h-[800px] md:h-96 scrollbar-this scrollbar-thumb-gray-600 scrollbar-thumb-rounded hover:scrollbar-thumb-gray-500 w-[700px]"
         >
-          <MusicTrackList :album="artist[1]" />
+          <MusicTrackList :album="artist[2]" />
         </div>
       </div>
     </div>
@@ -56,7 +56,7 @@ import trackLength from "./MusicPoster";
 import MusicPoster from "./MusicPoster";
 import MusicTrack from "./MusicTrack";
 import artist from "../artist.json";
-import CreatePlaylistModal from "./CreatePlaylistModgit al";
+import CreatePlaylistModal from "./CreatePlaylistModal";
 
 const isModalOpen = ref(false);
 

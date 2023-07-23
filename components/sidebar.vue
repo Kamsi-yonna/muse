@@ -4,10 +4,11 @@
   >
     <img
       src="https://picsum.photos/id/22/200/300"
-      class="rounded-md"
+      class="rounded-md cursor-pointer"
       width="56"
       height="56"
       contain
+      to="/"
     />
 
     <div class="flex flex-col space-y-8 text-2xl text-white cursor-pointer">
