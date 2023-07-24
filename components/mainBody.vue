@@ -9,10 +9,10 @@
       class="grid overflow-y-scroll scrollbar-hide h-96 py-4 grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-8 p-4"
     >
       <!-- POSTER  -->
-      <musicPoster :album="artist[0]" @fetchAlbumData="handleFetchAlbumData" />
-      <musicPoster :album="artist[1]" @fetchAlbumData="handleFetchAlbumData" />
-      <musicPoster :album="artist[2]" @fetchAlbumData="handleFetchAlbumData" />
-      <musicPoster :album="artist[3]" @fetchAlbumData="handleFetchAlbumData" />
+      <musicPoster :album="artist[0]" @fetchAlbumData="handleClick" />
+      <musicPoster :album="artist[1]" @fetchAlbumData="handleClick" />
+      <musicPoster :album="artist[2]" @fetchAlbumData="handleClick" />
+      <musicPoster :album="artist[3]" @fetchAlbumData="handleClick" />
     </div>
     <!-- POSTER  END-->
 
